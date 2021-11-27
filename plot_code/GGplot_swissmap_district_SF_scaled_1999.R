@@ -60,8 +60,8 @@ Map=ggplot()+
   geom_sf(data = Zuerich_gemeinde, color="black",aes(fill=Population))+ #districts
   geom_sf_text(data = st_as_sf(Zuerich_gemeinde ), aes(label =  Population), size = 3,family="serif")+ #districtnames
   
-  ggplot2::scale_fill_gradient(low = color_continuous[1],#
-                               high = color_continuous[2],
+  ggplot2::scale_fill_gradient(low = "grey",#
+                               high = "red",
                                na.value = color_na,
                                limits=c(0,5014.6),                                     #NOTE the limits are according to the Map in 2020 so that the colors match th numbers
                                name = legend_title, #title of the scaling legend

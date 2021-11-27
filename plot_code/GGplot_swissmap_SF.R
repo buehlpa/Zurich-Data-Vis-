@@ -34,13 +34,13 @@ Zuerich_box         =  st_as_sfc(st_bbox(Zuerich))                    #box
 swissmap =      ggplot()+                                                         # basic plot                                                          # country settings
   geom_sf(data = Sw_canton, fill="grey", color="white")+
   geom_sf(data = Sw, fill=NA, color="black")+
-  geom_sf(data = Zuerich, fill="red", color="black")+theme_void()+
+  geom_sf(data = Zuerich, fill="lightgreen", color="black")+theme_void()+
   # geom_sf(data = Zuerich_gemeinde, fill="gray", color="black")+          # Would add subborders of districts                                                       # district settings
     annotation_north_arrow(location="tr",which_north="true",style=north_arrow_fancy_orienteering ())+
   
 
 
-geom_sf(data = Zuerich_box, fill=NA, size=1, color="red")+              # adding box
+geom_sf(data = Zuerich_box, fill=NA, size=1, color="green")+              # adding box
   geom_segment(aes(y=47.5 , yend=47.5, x=9, xend=9.8), linetype = "solid", color = "red", size = 0.8)+
 
   # annotate(geom = "text", x = 10.1, y = 47.5, label = "Canton of Zürich", 

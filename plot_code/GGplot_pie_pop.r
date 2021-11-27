@@ -16,7 +16,7 @@ pie=ggplot(data, aes(x="", y=value, fill=group)) +
   theme_void()+
   
   geom_bar(stat="identity", width=4, color="black")+
-  scale_fill_manual('', values=c('grey','red'))+
+  scale_fill_manual('', values=c('grey','lightgreen'))+
   
   annotate(geom = "text", x = 1.5, y = 0.7, label = "17.9 %", 
            color = "black", size = 7)+
