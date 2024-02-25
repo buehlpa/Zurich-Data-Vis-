@@ -1,5 +1,5 @@
-# Zurich-Data-Vis-
-This is the code repository for a DataVisualization Poster
+# Zurich-Data-Visualisation
+Some interesting figures of the canton Zurich
 
 all the Visualizations are made with ggplot2 
 
@@ -13,10 +13,6 @@ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 
 R-Version
 [Default] [64-bit] C:\Program Files\R\R-4.1.1
-
-
-Feel free to contact me for questions
-
 
 
 
