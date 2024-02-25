@@ -1,4 +1,4 @@
-# Zurich-Data-Visualisation
+# Zurich-Data-Visualization
 Some interesting figures of the canton Zurich
 
 all the Visualizations are made with ggplot2 
